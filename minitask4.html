@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Bebas</title>
+</head>
+<body>
+    <!-- Form Bebas -->
+    <h1>Form Bebas</h1>
+    <form action="search.html" method="POST">
+        <!-- Input Number -->
+        <label for="age">Usia:</label>
+        <input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+        <!-- Input Checkbox -->
+        <label for="subscribe">Langganan youtube Kang Ruli:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <!-- Input Radio -->
+        <p>Jenis Kelamin:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Cowo</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Cewe</label><br><br>
+
+        <!-- Input Dropdown -->
+        <label for="city">Pilih Kota:</label>
+        <select id="city" name="city">
+            <option hidden value="" selected >Pilih Disini</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+        </select><br><br>
+
+        <!-- Input Paragraf -->
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="2" cols="50" placeholder="Tulis pesan di sini..."></textarea>
+        <br><br>
+        <button type="submit">Kirim</button>
+        </form>
+</body>
+</html>
